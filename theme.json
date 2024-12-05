@@ -108,11 +108,7 @@
         "color": {
           "defaultPalette": true,
           "palette": [
-            {
-              "slug": "u-primary",
-              "color": "rgb(239 68 68)",
-              "name": "Udemy Primary"
-            }
+            { "slug": "u-primary", "color": "#ef4444", "name": "Udemy Primary" }
           ],
           "link": true,
           "custom": false,
@@ -122,27 +118,11 @@
         "typography": {
           "fontFamilies": [
             {
-              "fontFamily": "var(--wp--preset--font-family--u-pacifico)",
+              "fontFamily": "Pacifico, sans-serif",
               "slug": "u-pacifico",
               "name": "Udemy Pacifico"
             }
-          ],
-          "defaultFontSizes": false,
-          "fontSizes": [
-            { "slug": "u-small", "size": "0.75rem", "name": "Small" },
-            { "slug": "u-medium", "size": "1.25rem", "name": "Medium" },
-            { "slug": "u-large", "size": "2.25rem", "name": "Large" },
-            { "slug": "u-x-large", "size": "3rem", "name": "Extra Large" },
-            { "slug": "u-gigantic", "size": "3.75rem", "name": "Gigantic" }
-          ],
-          "lineHeight": true,
-          "dropCap": true,
-          "fontWeight": true,
-          "fontStyle": true,
-          "textTransform": true,
-          "letterSpacing": true,
-          "textDecoration": true,
-          "customFontSize": true
+          ]
         }
       },
       "core/cover": {
@@ -235,5 +215,12 @@
       },
       "blockGap": "4rem"
     }
-  }
+  },
+  "customTemplates": [
+    {
+      "name": "full-width-page",
+      "title": "Full Width Page",
+      "postTypes": ["page"]
+    }
+  ]
 }
